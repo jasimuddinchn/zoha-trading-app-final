@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="zoha_trading_db" />
+        <include domain="database" path="zoha_trading_db-wal" />
+        <include domain="database" path="zoha_trading_db-shm" />
+        <include domain="database" path="." />
+        <include domain="sharedpref" path="." />
+        <include domain="file" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="zoha_trading_db" />
+        <include domain="database" path="zoha_trading_db-wal" />
+        <include domain="database" path="zoha_trading_db-shm" />
+        <include domain="database" path="." />
+        <include domain="sharedpref" path="." />
+        <include domain="file" path="." />
+    </device-transfer>
+</data-extraction-rules>

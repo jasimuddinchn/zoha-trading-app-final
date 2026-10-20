@@ -1,0 +1,8 @@
+{
+  "name": "Zoha Trading V 1.2.1",
+  "description": "Zoha Trading",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
